@@ -1,0 +1,95 @@
+﻿@{
+
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dil Düzenle</title>
+</head>
+<body class="bg-primary">
+    <div id="layoutAuthentication">
+        <div id="layoutAuthentication_content">
+            <main>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5">
+                            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                <div class="card-header"><h3 class="text-center font-weight-light my-4">Dil Duzenle:</h3></div>
+                                <div class="card-body">
+                                    <form method="post" asp-controller="Site" asp-action="DilDuzenle" asp-route-id="@ViewBag.Gelen.Id" role="form">
+                                        <div class="form-group">
+
+
+                                            <label class="small mb-1">Dil Adi:</label>
+                                            <input class="form-control py-4" name="Adi" id="Adi" type="text" placeholder="Türkçe" value="@ViewBag.Gelen.Adi" />
+
+                                            <label class="small mb-1">Hesap:</label>
+                                            <input class="form-control py-4" name="Hesap" id="Hesap" type="text" placeholder="Hesap" value="@ViewBag.Gelen.Hesap" />
+
+                                            <label class="small mb-1">Ürün Listesi:</label>
+                                            <input class="form-control py-4" name="UrunListesi" id="UrunListesi" type="text" placeholder="Ürün Listesi" value="@ViewBag.Gelen.UrunListesi" />
+
+                                            <label class="small mb-1">Sepetim:</label>
+                                            <input class="form-control py-4" name="Sepetim" id="Sepetim" type="text" placeholder="Sepetim"  value="@ViewBag.Gelen.Sepetim" />
+
+                                            <label class="small mb-1">İletisim:</label>
+                                            <input class="form-control py-4" name="Iletisim" id="Iletisim" type="text" placeholder="İletisim"  value="@ViewBag.Gelen.Iletisim" />
+
+                                            <label class="small mb-1">Kategoriler:</label>
+                                            <input class="form-control py-4" name="Kategoriler" id="Kategoriler" type="text" placeholder="Kategoriler" value="@ViewBag.Gelen.Kategoriler" />
+
+                                            <label class="small mb-1">Giriş Yap:</label>
+                                            <input class="form-control py-4" name="GirisYap" id="GirisYap" type="text" placeholder="Giriş Yap" value="@ViewBag.Gelen.GirisYap" />
+
+                                            <label class="small mb-1">Çıkış Yap:</label>
+                                            <input class="form-control py-4" name="CikisYap" id="CikisYap" type="text" placeholder="Çıkış Yap" value="@ViewBag.Gelen.CikisYap" />
+
+                                            <label class="small mb-1">İade:</label>
+                                            <input class="form-control py-4" name="Iade" id="Iade" type="text" placeholder="İade"  value="@ViewBag.Gelen.Iade" />
+
+                                            <label class="small mb-1">Ücretsiz Kargo:</label>
+                                            <input class="form-control py-4" name="UcretsizKargo" id="UcretsizKargo" type="text" placeholder="Ücretsiz Kargo"  value="@ViewBag.Gelen.UcretsizKargo" />
+
+                                            <label class="small mb-1">Güvenli Alışveriş:</label>
+                                            <input class="form-control py-4" name="GuvenliAlisveris" id="GuvenliAlisveris" type="text" placeholder="Güvenli Alışveriş" value="@ViewBag.Gelen.GuvenliAlisveris" />
+
+                                            <label class="small mb-1">Yeni Ürünler:</label>
+                                            <input class="form-control py-4" name="YeniUrunler" id="YeniUrunler" type="text" placeholder="Yeni Ürünler"  value="@ViewBag.Gelen.YeniUrunler" />
+
+                                            <label class="small mb-1">En Çok Satan:</label>
+                                            <input class="form-control py-4" name="EnCokSatan" id="EnCokSatan" type="text" placeholder="En Çok Satan" value="@ViewBag.Gelen.EnCokSatan" />
+                                            <label class="small mb-1">En Çok Görüntülenen:</label>
+                                            <input class="form-control py-4" name="EnCokGoruntulenen" id="EnCokGoruntulenen" type="text" placeholder="En Çok Görüntülenen" value="@ViewBag.Gelen.EnCokGoruntulenen" />
+                                            <label class="small mb-1">En Yeni:</label>
+                                            <input class="form-control py-4" name="EnYeni" id="EnYeni" type="text" placeholder="En Yeni" value="@ViewBag.Gelen.EnYeni" />
+
+
+                                        </div>
+
+                                        <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+                                            <input class="btn btn-primary" type="submit" value="Ekle" />
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="card-footer text-center">
+
+                                    <div class="small"><a asp-action="Panel">Geri</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
+
+
+

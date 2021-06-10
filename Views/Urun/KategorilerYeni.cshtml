@@ -1,0 +1,322 @@
+﻿@{
+    Layout = null;
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>NetCore - Anasayfa</title>
+    <link href="~/shop/css/styles.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/de4ce4988e.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                @if (ViewBag.Kid != null)
+                {
+                    <li class="nav-item"><a class="nav-link" asp-action="Anasayfa" asp-controller="Kullanici"  asp-route-kid="@ViewBag.Kid"> <i class="fas fa-home"></i> Hesabım</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="ProfilSayfasi" asp-controller="Kullanici" asp-route-kid="@ViewBag.Kid"> <i class="fas fa-user"></i> Hesabım</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="KullaniciUrunListele" asp-controller="Urun" asp-route-kid="@ViewBag.Kid"> <i class="fas fa-clipboard-check"></i> Ürün Listesi</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Sepet" asp-controller="Urun" asp-route-kid="@ViewBag.Kid"><i class="fas fa-shopping-cart"></i> Sepetim</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Iletisim" asp-controller="Site" asp-route-kid="@ViewBag.Kid"><i class="fas fa-phone-square-alt"></i> İletişim</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="KategorilerYeni" asp-controller="Urun" asp-route-Kid="@ViewBag.Kid"><i class="fa fa-building-o"></i> Kategoriler</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"><i class="fas fa-sign-in-alt"></i> Çıkış Yap</a></li>
+                }
+                else
+                {
+                    <li class="nav-item"><a class="nav-link" asp-action="Anasayfa" asp-controller="Kullanici"> <i class="fas fa-home"></i> Anasayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"> <i class="fas fa-user"></i> Hesabım</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"> <i class="fas fa-clipboard-check"></i> Ürün Listesi</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"><i class="fas fa-shopping-cart"></i> Sepetim</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Iletisim" asp-controller="Site"><i class="fas fa-phone-square-alt"></i> İletişim</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="KategorilerYeni" asp-controller="Urun"><i class="fa fa-building-o"></i> Kategoriler</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"><i class="fas fa-sign-in-alt"></i> Giris Yap</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+
+
+
+    <div class="row">
+        <div class="col">
+
+            <div class="row">
+                <div class="col-sm" style=" background: #284f7da1;
+        margin-top: 25px;
+        padding-left: 5px;
+        padding-right: 0px;
+        padding-top: 30px;
+    ">
+                 <h3 style="color:whitesmoke">Kategoriler</h3>
+                        <ul style=" padding: 0px;">
+                            @foreach (Kategori item in ViewBag.Kategoriler)
+                            {
+                                if (ViewBag.Kid != null)
+                                {
+                                    <li style=" background: #284f7d;  list-style: none; font-weight: bold; margin-top: 10px; padding-left: 5px;"><a stlye="color: whitesmoke !important;" asp-action="KategorilerYeni" asp-controller="Urun" asp-route-Kid="@ViewBag.Kid" asp-route-katid="@item.Id">@item.KategoriAdi</a> </li>
+                                }
+                                else
+                                {
+                                    <li style=" background: #284f7d;  list-style: none; font-weight: bold; margin-top: 10px; padding-left: 5px;"><a stlye="color: whitesmoke !important;" asp-action="KategorilerYeni" asp-controller="Urun" asp-route-katid="@item.Id">@item.KategoriAdi</a> </li>
+                                }
+
+                            }
+                        </ul>
+                    </div>
+                
+
+                <div class="col-9" style="float:right">
+                    <div class="carousel slide my-4" id="carouselExampleIndicators" data-ride="carousel">
+                        <ol class="carousel-indicators">
+
+                            @for (int i = 0; i < ViewBag.Slide.Count; i++)
+                            {
+                                if (i == 0)
+                                {
+                                    <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                                }
+                                else
+                                {
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="@i"></li>
+                                }
+                            }
+
+
+
+
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            @{
+                                int x = 0;
+
+                                foreach (Slide Slide in ViewBag.Slide)
+                                {
+                                    if (x == 0)
+                                    {
+                                        <div class="carousel-item active "><img style="width: 1200px; height: 500px;" class="d-block img-fluid " src="@Slide.ResimUrl" /></div>
+                                        x++;
+                                    }
+                                    else
+                                    {
+                                        <div class="carousel-item "><img style="width: 1200px; height: 500px;" class="d-block img-fluid" src="@Slide.ResimUrl" /></div>
+                                    }
+                                }
+                            }
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+                <h3 style="text-align:center; margin-top: 20px; margin-bottom: 20px;">EN SON ÜRÜNLER</h3>
+
+                <div class="row" style=" background: #284f7d; padding-top: 10px; margin-bottom: 20px;     box-shadow: -1px 2px 6px 2px;">
+
+                    @foreach (Urun item in ViewBag.YeniUrunler)
+                    {
+                        foreach (Fiyat fiyat in ViewBag.Fiyat)
+                        {
+
+                            if (item.FiyatId == fiyat.Id)
+                            {
+                                @if (ViewBag.Kid != null && ViewBag.Admin != null)
+                                {
+                                    <div class="col-lg-4 col-md-6 mb-4">
+                                        <div class="card h-100">
+                                            <a class="small text-white stretched-link" asp-action="UrunDetay" asp-controller="Urun" asp-route-kid="@ViewBag.Kid" asp-route-uid="@item.Id" asp-route-kullanici="@ViewBag.Admin"> <img class="card-img-top" src="@item.ResimUrl" alt="..." /> </a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">
+                                                    <a href="#!">@item.UrunAdi</a>
+                                                </h4>
+                                                <h5>@fiyat.Satis TL</h5>
+                                                <p class="card-text"> @item.Aciklama </p>
+                                            </div>
+                                            <div class="card-footer" style="z-index: 99;">
+                                                @if (item.Adet > 0)
+                                                {
+                                                    <a style="z-index: 99; float: right;" class="btn btn-primary" asp-action="SepetEkle" asp-controller="Urun" asp-route-uid="@item.Id" asp-route-kid="@ViewBag.Kid"> <i class="fas fa-cart-plus"></i></a>}
+                                                else
+                                                {
+                                                    <label>--STOKTA YOK--</label>
+                                                }
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="col-lg-4 col-md-6 mb-4">
+                                        <div class="card h-100">
+                                            <a class="small text-white stretched-link" asp-action="Giris" asp-controller="Kullanici"> <img class="card-img-top" src="@item.ResimUrl" alt="..." /> </a>
+                                            <div class="card-body">
+                                                <h4 class="card-title">
+                                                    <a href="#!">@item.UrunAdi</a>
+                                                </h4>
+                                                <h5>@fiyat.Satis TL</h5>
+                                                <p class="card-text"> @item.Aciklama </p>
+                                            </div>
+                                            <div class="card-footer" style="z-index: 99;">
+                                                @if (item.Adet > 0)
+                                                {
+                                                    <a style="z-index: 99; float: right;" class="btn btn-primary" asp-action="Giris" asp-controller="Kullanici"> <i class="fas fa-cart-plus"></i></a>}
+                                                else
+                                                {
+                                                    <label>--STOKTA YOK--</label>
+                                                }
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+
+                            }
+                        }
+                    }
+
+                </div>
+
+
+                <div class="row" style=" background: #284f7d; padding-top: 10px; margin-bottom: 20px;     box-shadow: -1px 2px 6px 2px;">
+
+                    @if (ViewBag.GelecekUrun != null)
+                    {
+
+                        @foreach (Urun item in ViewBag.GelecekUrun)
+                        {
+                            foreach (Fiyat fiyat in ViewBag.Fiyat)
+                            {
+
+                                if (item.FiyatId == fiyat.Id)
+                                {
+                                    @if (ViewBag.Kid != null && ViewBag.Admin != null)
+                                    {
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="card h-100">
+                                                <a class="small text-white stretched-link" asp-action="UrunDetay" asp-controller="Urun" asp-route-kid="@ViewBag.Kid" asp-route-uid="@item.Id" asp-route-kullanici="@ViewBag.Admin"> <img class="card-img-top" src="@item.ResimUrl" alt="..." /> </a>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">
+                                                        <a href="#!">@item.UrunAdi</a>
+                                                    </h4>
+                                                    <h5>@fiyat.Satis TL</h5>
+                                                    <p class="card-text"> @item.Aciklama </p>
+                                                </div>
+                                                <div class="card-footer" style="z-index: 99;">
+                                                    @if (item.Adet > 0)
+                                                    {
+                                                        <a style="z-index: 99; float: right;" class="btn btn-primary" asp-action="SepetEkle" asp-controller="Urun" asp-route-uid="@item.Id" asp-route-kid="@ViewBag.Kid"> <i class="fas fa-cart-plus"></i></a>}
+                                                    else
+                                                    {
+                                                        <label>--STOKTA YOK--</label>
+                                                    }
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="col-lg-4 col-md-6 mb-4">
+                                            <div class="card h-100">
+                                                <a class="small text-white stretched-link" asp-action="Giris" asp-controller="Kullanici"> <img class="card-img-top" src="@item.ResimUrl" alt="..." /> </a>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">
+                                                        <a href="#!">@item.UrunAdi</a>
+                                                    </h4>
+                                                    <h5>@fiyat.Satis TL</h5>
+                                                    <p class="card-text"> @item.Aciklama </p>
+                                                </div>
+                                                <div class="card-footer" style="z-index: 99;">
+                                                    @if (item.Adet > 0)
+                                                    {
+                                                        <a style="z-index: 99; float: right;" class="btn btn-primary" asp-action="Giris" asp-controller="Kullanici"> <i class="fas fa-cart-plus"></i></a>}
+                                                    else
+                                                    {
+                                                        <label>--STOKTA YOK--</label>
+                                                    }
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+</div>
+
+
+<footer style=" box-shadow: 12px 1px 3px 3px;">
+    <div class="row" style="background-color: #284f7d; margin-top: 150px; height: 30%;  font-weight: bold;     margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;">
+        <div style="color:whitesmoke" class="col-sm">
+            <img src="@ViewBag.Site.LogoUrl" />
+            <br />
+            @if (ViewBag.Site.Facebook == true)
+            {
+                <a href="@ViewBag.Site.FacebookUrl"> <i class="fab fa-facebook-square"></i> </a>
+            }
+            @if (ViewBag.Site.Twitter == true)
+            {
+                <a href="@ViewBag.Site.TwitterUrl"> <i class="fab fa-twitter-square"></i> </a>
+            }
+            @if (ViewBag.Site.Instagram == true)
+            {
+                <a href="@ViewBag.Site.InstagramUrl"> <i class="fab fa-instagram-square"></i> </a>
+            }
+
+        </div>
+        <div style="color:whitesmoke" class="col-sm">Site Haritası</div>
+        <div style="color:whitesmoke" class="col-sm">Kategoriler</div>
+        <div style="color:whitesmoke" class="col-sm">
+            Abone Ol
+
+            <form method="post" asp-action="AboneEkle" asp-controller="Kullanici" asp-route-kid="@ViewBag.Kid" role="form">
+                <input class="form-control py-4" name="Email" id="Email" type="text" placeholder="E-Mail" />
+                <input class="btn btn-primary" type="submit" value="Abone Ol" />
+            </form>
+        </div>
+    </div>
+    <div style="margin-left: 30px;font-size: 13px;" class="row"><label>2021 - NetCore </label></div>
+</footer>
+
+
+<!-- Bootstrap core JS-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="~/shop/js/scripts.js"></script>

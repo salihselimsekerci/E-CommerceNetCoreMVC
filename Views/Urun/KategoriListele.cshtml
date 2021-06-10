@@ -1,0 +1,67 @@
+﻿@model IEnumerable<NetCore.Models.Kategori>
+
+@{
+
+}
+
+
+<head>
+    <title>Kategori Listesi</title>
+</head>
+
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Kategori Listesi
+    </div>
+    <div class="card-body">
+
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Id)</th>
+                        <th>@Html.DisplayNameFor(model => model.KategoriAdi)</th>
+                        <th>@Html.DisplayNameFor(model => model.Durum)</th>
+                        <th>İşlem</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+
+                        <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                        <td>@Html.DisplayFor(modelItem => item.KategoriAdi)</td>
+                        @if (item.Durum == true)
+                        {
+                            <td>Aktif</td>
+                        }
+                        else {
+                               <td>Pasif</td>
+                              }
+                        <td>
+                            <a asp-action="KategoriSil" asp-controller="Urun" asp-route-id="@item.Id">Sil</a> |
+                            <a asp-action="KategoriDuzenle" asp-controller="Urun" asp-route-id="@item.Id">Düzenle</a>
+
+
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+
+
+            </table>
+
+            <p>
+                <a class="btn btn-primary" asp-action="KategoriEkle" asp-controller="Urun">Yeni Kategori Ekle</a>
+                
+            </p>
+        </div>
+    </div>
+</div>
+
+
+

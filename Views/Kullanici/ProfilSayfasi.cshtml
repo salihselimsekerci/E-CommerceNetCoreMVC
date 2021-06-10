@@ -1,0 +1,52 @@
+﻿@{
+
+        Layout = "~/Views/Shared/_KullaniciLayout.cshtml";
+
+}
+<head>
+    <title>Ürün Detay : @ViewBag.Gelen.KullaniciAdi</title>
+</head>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Kullanici : @ViewBag.Gelen.KullaniciAdi
+    </div>
+    <div class="card-body">
+        <a class="btn btn-primary" style="width: 20%; float: right;" asp-action="Sepet" asp-controller="Urun" asp-route-kid="@ViewBag.Gelen.Id">Sepet <i class="fas fa-shopping-cart"></i></a>
+        <h1>  Kullanici Adi: @ViewBag.Gelen.KullaniciAdi</h1>
+
+        @if (ViewBag.Gelen.ResimUrl != "")
+        {
+            <img style =" width: 20%; margin-bottom: 30px;" src="@ViewBag.Gelen.ResimUrl" />
+        }
+        else
+        {
+          
+            <img style =" width: 20%; margin-bottom: 30px;" src="https://st3.depositphotos.com/4111759/13425/v/600/depositphotos_134255626-stock-illustration-avatar-male-profile-gray-person.jpg" />
+        }
+
+
+
+
+        <ul>
+            <li>Isim: @ViewBag.Gelen.Isim</li>
+            <li>Soyisim: @ViewBag.Gelen.Soyisim</li>
+            <li>Adres: @ViewBag.Gelen.Adres</li>
+
+            <li>Şifre: @ViewBag.Gelen.Sifre</li>
+            <li>Email: @ViewBag.Gelen.email</li>
+
+
+        </ul>
+        <a class="btn btn-primary" style="width: 20%; float: right;" asp-action="Duzenle" asp-controller="Kullanici" asp-route-admin="0" asp-route-id="@ViewBag.Gelen.Id">Bilgileri Düzenle <i class="fas fa-user"></i></a>
+
+    </div>
+    <a class="btn btn-primary" style="background-color: #0b406d;float: right;" asp-action="KullaniciUrunListele" asp-controller="Urun" asp-route-kid="@ViewBag.Gelen.Id">Ürün Listesi</a>
+    
+
+
+</div>
+
+
+

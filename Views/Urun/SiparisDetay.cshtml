@@ -1,0 +1,65 @@
+﻿@model NetCore.Models.Siparis
+
+@{
+
+}
+<head>
+    <title>Sipariş Listesi</title>
+</head>
+
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Sipariş Listesi
+    </div>
+    <div class="card-body">
+
+        <div class="table-responsive">
+
+
+            @foreach (Kullanici kullanici in ViewBag.Kullanici)
+            {
+                if (Model.KullaniciId == kullanici.Id)
+                {
+                    <label>
+                        Kullanıcı : @kullanici.KullaniciAdi
+                    </label>
+                }
+            }
+
+            <label style=" display: block;">---Ürünler---</label>
+            <ul>
+                @foreach (Sepet Sepet in ViewBag.Sepet)
+                {
+
+                    @foreach (Urun item in ViewBag.Urunler)
+                    {
+                        if (Sepet.UrunId == item.Id)
+                        {
+                            <li>Ürün Adı : @item.UrunAdi</li>
+                            <li>Adet: @Sepet.Adet</li>
+
+                            foreach (Fiyat fiyat in ViewBag.Fiyat)
+                            {
+                                if (fiyat.Id == item.FiyatId)
+                                {
+                                    <li>Birim Fiyat : @fiyat.Satis TL</li>
+
+                                    <li>Toplam Fiyat : @{ int f = Convert.ToInt32(fiyat.Satis) * Sepet.Adet; } @f TL</li>
+                                }
+                            }
+
+                        }
+                    }
+
+                }
+
+            </ul>
+
+            <label>Sipariş Toplam : @Model.ToplamFiyat TL</label>
+        </div>
+    </div>
+</div>
+
+

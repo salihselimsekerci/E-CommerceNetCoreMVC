@@ -1,0 +1,96 @@
+﻿@{
+
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Urun Düzenle</title>
+</head>
+
+<body class="bg-primary">
+    <div id="layoutAuthentication">
+        <div id="layoutAuthentication_content">
+            <main>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5">
+                            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                <div class="card-header"><h3 class="text-center font-weight-light my-4">Ürün Düzenle:</h3></div>
+                                <div class="card-body">
+                                    <form method="post" asp-action="UrunDuzenle" role="form">
+                                        <div class="form-group">
+                                            <label class="small mb-1" for="inputEmailAddress">Ürün Adı:</label>
+                                            <input class="form-control py-4" name="urunAdi" id="urunAdi" type="text" value="@ViewBag.gelen.UrunAdi" />
+                                            <label class="small mb-1" for="inputEmailAddress">Ürün Aciklama:</label>
+                                            <input class="form-control py-4" name="urunAciklama" id="urunAciklama" type="text" value="@ViewBag.gelen.Aciklama" />
+                                            <label class="small mb-1" for="inputEmailAddress">Ürün Adet:</label>
+                                            <input class="form-control py-4" name="urunAdet" id="urunAdet" type="text" value="@ViewBag.gelen.Adet" />
+                                            <label class="small mb-1" for="inputEmailAddress">Fiyat Alis:</label>
+                                            <input class="form-control py-4" name="alisFiyati" id="alisFiyati" type="text" value="@ViewBag.Fiyat.Alis" />
+                                            <label class="small mb-1" for="inputEmailAddress">Fiyat Satis:</label>
+                                            <input class="form-control py-4" name="satisFiyati" id="satisFiyati" type="text" value="@ViewBag.Fiyat.Satis" />
+                                            <label class="small mb-1" for="inputEmailAddress">Resim Url:</label>
+                                            <input class="form-control py-4" name="resimUrl" id="resimUrl" type="text" value="@ViewBag.gelen.ResimUrl" />
+
+
+                                            <label class="small mb-1" for="inputEmailAddress">Urun Ozellik:</label>
+                                            <input class="form-control py-4" name="OzellikBaslik1" id="OzellikBaslik1" type="text" value="@ViewBag.gelen.OzellikBaslik1" />
+                                            <label class="small mb-1" for="inputEmailAddress">Urun Ozellik: İçerik</label>
+                                            <input class="form-control py-4" name="OzellikAciklama1" id="OzellikAciklama1" type="text" value="@ViewBag.gelen.OzellikAciklama1" />
+
+                                            <label class="small mb-1" for="inputEmailAddress">Urun Ozellik2 : Başlık</label>
+                                            <input class="form-control py-4" name="OzellikBaslik2" id="OzellikBaslik2" type="text" value="@ViewBag.gelen.OzellikBaslik2" />
+                                            <label class="small mb-1" for="inputEmailAddress">Urun Ozellik: İçerik</label>
+                                            <input class="form-control py-4" name="OzellikAciklama2" id="OzellikAciklama2" type="text" value="@ViewBag.gelen.OzellikAciklama2" />
+
+                                            <label class="small mb-1" for="inputEmailAddress">Urun Ozellik3 : Başlık</label>
+                                            <input class="form-control py-4" name="OzellikBaslik3" id="OzellikBaslik3" type="text" value="@ViewBag.gelen.OzellikBaslik3" />
+                                            <label class="small mb-1" for="inputEmailAddress">Urun Ozellik: İçerik</label>
+                                            <input class="form-control py-4" name="OzellikAciklama3" id="OzellikAciklama3" type="text" value="@ViewBag.gelen.OzellikAciklama3" />
+
+
+                                            <label class="small mb-1">En Cok Satan</label>
+                                            <input class="form-control py-4" name="EnCokSatan" id="EnCokSatan" type="checkbox" />
+
+                                            <label class="small mb-1">En Cok Goruntulenen</label>
+                                            <input class="form-control py-4" name="EnCokGoruntulenen" id="EnCokGoruntulenen" type="checkbox" />
+
+                                            <label class="small mb-1">Gelecek Urun</label>
+                                            <input class="form-control py-4" name="GelecekUrun" id="GelecekUrun" type="checkbox" />
+
+
+                                        </div>
+                                        <div>
+                                            <label class="small mb-1" for="inputEmailAddress">Kategori:</label>
+                                            @Html.DropDownList("Kategori", ViewBag.Kat as SelectList)
+                                        </div>
+                                        <div>
+                                            <label class="small mb-1" for="inputEmailAddress">Marka:</label>
+                                            @Html.DropDownList("Marka", ViewBag.Marka as SelectList)
+                                        </div>
+
+                                        <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+                                            <input class="btn btn-primary" type="submit" value="Duzenle" id="@ViewBag.gelen.Id"/>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="card-footer text-center">
+
+                                    <div class="small"><a asp-action="UrunListele">Kullanici Listesi</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
+

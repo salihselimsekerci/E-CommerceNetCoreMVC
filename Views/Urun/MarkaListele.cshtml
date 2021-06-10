@@ -1,0 +1,52 @@
+﻿@model IEnumerable<NetCore.Models.Marka>
+
+@{
+
+}
+<head>
+    <title>Marka Listesi</title>
+</head>
+
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Marka Listesi
+    </div>
+    <div class="card-body">
+       
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Id)</th>
+                        <th>Önizleme</th>
+                        <th>@Html.DisplayNameFor(model => model.MarkaAdi)</th>
+                        <th>İşlem</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                        <td style=" width: 200px; height: 200px;"><img style=" width: 200px; height: 200px;" src="@item.ResimUrl" /></td>
+                        <td>@Html.DisplayFor(modelItem => item.MarkaAdi)</td>
+                        <td>
+                            <a asp-action="MarkaSil" asp-controller="Urun" asp-route-id="@item.Id">Sil</a> |
+                            <a asp-action="MarkaDuzenle" asp-controller="Urun" asp-route-id="@item.Id">Düzenle</a>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+            <p>
+                <a class="btn btn-primary" asp-action="MarkaEkle" asp-controller="Urun">Yeni Marka Ekle</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+

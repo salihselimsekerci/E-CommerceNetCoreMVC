@@ -1,0 +1,107 @@
+﻿@model IEnumerable<NetCore.Models.Kullanici>
+
+
+<head>
+    <title>Kullanıcı Listesi</title>
+</head>
+
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Kullanıcı Listesi
+    </div>
+    <div class="card-body">
+
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Id)</th>
+                        <th>@Html.DisplayNameFor(model => model.KullaniciAdi)</th>
+                        <th>@Html.DisplayNameFor(model => model.email)</th>
+                        <th>@Html.DisplayNameFor(model => model.Sifre)</th>
+                        <th>İşlem</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        @if (item.sifreBekliyor == false || item.sifreBekliyor == null)
+                        {
+                            <tr>
+
+                                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                                <td>@Html.DisplayFor(modelItem => item.KullaniciAdi)</td>
+                                <td>@Html.DisplayFor(modelItem => item.email)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Sifre)</td>
+                                <td>
+                                    <a asp-action="Sil" asp-controller="Kullanici" asp-route-id="@item.Id">Sil</a> |
+                                    <a asp-action="Duzenle" asp-controller="Kullanici" asp-route-admin="1" asp-route-id="@item.Id">Düzenle</a> |
+                                    <a asp-action="Detay" asp-controller="Kullanici" asp-route-id="@item.Id">Detay</a> |
+                                    <a href="#" class="sifYen" name="sifYen" data-mail="@item.email" data-pass="@item.Sifre" data-id="@item.Id"> Sifre Gonder</a>
+
+                                </td>
+
+                            </tr>
+                        }
+                        else
+                        {
+                            <tr style="background-color:red">
+
+                                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                                <td>@Html.DisplayFor(modelItem => item.KullaniciAdi)</td>
+                                <td>@Html.DisplayFor(modelItem => item.email)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Sifre)</td>
+                                <td>
+                                    <a asp-action="Sil" asp-controller="Kullanici" asp-route-id="@item.Id">Sil</a> |
+                                    <a asp-action="Duzenle" asp-controller="Kullanici" asp-route-admin="1" asp-route-id="@item.Id">Düzenle</a> |
+                                    <a asp-action="Detay" asp-controller="Kullanici" asp-route-id="@item.Id">Detay</a> |
+                                    <a href="#" class="sifYen" name="sifYen" data-mail="@item.email" data-pass="@item.Sifre"  data-id="@item.Id">Sifre Gonder</a>
+
+                                </td>
+                                <td><p style="font-weight: bold;">UYARI: KULLANICI SIFRE BEKLIYOR -!!</p></td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+
+
+            </table>
+
+            <p>
+                <a class="btn btn-primary" asp-action="Ekle" asp-controller="Kullanici" asp-route-admin="1">Yeni Kullanıcı Ekle</a>
+
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+<script>
+    $(function () {
+        $(".sifYen").on('click', function (event){
+            event.preventDefault();
+            var email = $(this).data('mail');
+            var baslik = 'Sifre Yenileme';
+            var Konu = 'Sifreniz: ' + $(this).data('pass');
+            alert("Mail: " + email + " | | " + Konu)
+            window.location = 'mailto:' + email + '?subject=' + baslik + '&body=' + Konu;
+            
+            var kid = $(this).data('id');
+            var url = '@Url.Action("SifreGonder", "Kullanici", new { id = "__id__" })';
+            window.location.href = url.replace('__id__', kid);
+
+        });
+    });
+
+
+</script>

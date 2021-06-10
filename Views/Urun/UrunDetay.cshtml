@@ -1,0 +1,85 @@
+﻿@{
+
+    @if(ViewBag.admin == 0)
+    {
+        Layout = "~/Views/Shared/_KullaniciLayout.cshtml";
+    }
+    else { Layout = "~/Views/Shared/_Layout.cshtml"; }
+}
+<head>
+    <title>Ürün Detay : @ViewBag.gelen.UrunAdi</title>
+</head>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Ürün Detay: @ViewBag.gelen.UrunAdi
+    </div>
+    <div class="card-body">
+
+        <h1> @ViewBag.gelen.UrunAdi</h1>
+        <p> @ViewBag.gelen.Aciklama</p>
+
+        @if (ViewBag.gelen.ResimUrl == null || ViewBag.gelen.ResimUrl == "Resim Url" || ViewBag.gelen.ResimUrl == "")
+        {
+            <img src="~/assets/img/ph.png" style=" width: 50%;" />
+            
+        }
+        else
+        {
+            <img src="@ViewBag.gelen.ResimUrl" style=" width: 50%;" />
+        }
+        <br />
+        <p>Kategori: @ViewBag.kat.KategoriAdi</p>
+
+        @if (ViewBag.admin == 0)
+        {
+            <span>Fiyat: @ViewBag.Fiyat.Satis</span>
+        }
+        else
+        {
+            <span>Alis Fiyat: @ViewBag.Fiyat.Alis</span><br />
+            <span>Satis Fiyat: @ViewBag.Fiyat.Satis</span>
+        }
+        <ul>
+            <li>Adet: @ViewBag.gelen.Adet</li>
+            <li>Marka: @ViewBag.Marka.MarkaAdi</li>
+        </ul>
+
+
+        @if (ViewBag.gelen.OzellikBaslik1 != null && ViewBag.gelen.OzellikAciklama1 != null)
+        {
+            <ul>
+                <li>@ViewBag.gelen.OzellikBaslik1  : @ViewBag.gelen.OzellikAciklama1 </li>
+            </ul>
+        }
+        @if (ViewBag.gelen.OzellikBaslik2 != null && ViewBag.gelen.OzellikAciklama2 != null)
+        {
+            <ul>
+                <li>@ViewBag.gelen.OzellikBaslik2  : @ViewBag.gelen.OzellikAciklama2 </li>
+            </ul>
+        }
+        @if (ViewBag.gelen.OzellikBaslik3 != null && ViewBag.gelen.OzellikAciklama3 != null)
+        {
+            <ul>
+                <li>@ViewBag.gelen.OzellikBaslik3  : @ViewBag.gelen.OzellikAciklama3 </li>
+            </ul>
+        }
+
+        @if (ViewBag.admin == 1)
+        {
+            <a class="btn btn-primary" asp-action="UrunDuzenle" asp-controller="Urun" asp-route-id="@ViewBag.gelen.Id">Duzenle</a>
+            <a class="btn btn-primary" style="background-color: #c21b1b;" asp-action="UrunSil" asp-controller="Urun" asp-route-id="@ViewBag.gelen.Id">Sil</a>
+            <a class="btn btn-primary" style="background-color: #0b406d;float: right;" asp-action="UrunListele" asp-controller="Urun">Ürün Listesi</a>
+        }
+        else
+        {
+            <a class="btn btn-primary" style="background-color: #0b406d;float: right;" asp-action="KullaniciUrunListele" asp-controller="Urun" asp-route-kid="@ViewBag.kullanici">Ürün Listesi</a>
+        }
+
+
+    </div>
+    </div>
+
+
+

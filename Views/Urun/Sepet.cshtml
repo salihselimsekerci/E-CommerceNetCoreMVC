@@ -1,0 +1,152 @@
+﻿@model IEnumerable<NetCore.Models.Urun>
+
+@{
+    Layout = "~/Views/Shared/_KullaniciLayout.cshtml";
+}
+<head>
+    <title>Sepet</title>
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                @if (ViewBag.Kullanici != null)
+                {
+                    <li class="nav-item"><a class="nav-link" asp-action="ProfilSayfasi" asp-controller="Kullanici" asp-route-kid="@ViewBag.Kullanici"> <i class="fas fa-user"></i> Hesabım</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="KullaniciUrunListele" asp-controller="Urun" asp-route-kid="@ViewBag.Kullanici"> <i class="fas fa-clipboard-check"></i> Ürün Listesi</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Sepet" asp-controller="Urun" asp-route-kid="@ViewBag.Kullanici"><i class="fas fa-shopping-cart"></i> Sepetim</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"><i class="fas fa-sign-in-alt"></i> Çıkış Yap</a></li>
+                }
+                else
+                {
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"> <i class="fas fa-user"></i> Hesabım</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"> <i class="fas fa-clipboard-check"></i> Ürün Listesi</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"><i class="fas fa-shopping-cart"></i> Sepetim</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"><i class="fas fa-sign-in-alt"></i> Giris Yap</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Sepet
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Ürün Resmi</th>
+                        <th>Ürün Adı</th>
+                        <th>Açıklama</th>
+
+                        <th>Adet</th>
+                        <th>Birim Fiyat</th>
+                        <th>Fiyat</th>
+                        <th>İşlem</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model)
+                    {
+                        @foreach (Sepet sep in ViewBag.Sepet)
+                        {
+                            if (sep.UrunId == item.Id)
+                            {
+                                <tr>
+                                    <td><img src="@item.ResimUrl" style=" height: 150px; width: 200px;" /></td>
+                                    <td>@Html.DisplayFor(modelItem => item.UrunAdi)</td>
+                                    <td>@Html.DisplayFor(modelItem => item.Aciklama)</td>
+                                    <td>@Html.DisplayFor(modelItem => sep.Adet)</td>
+
+
+
+                                    @foreach (SelectListItem satis in ViewBag.Satis)
+                                    {
+
+                                        if (satis.Value == item.FiyatId.ToString())
+                                        {
+                                            <td>@satis.Text</td>
+                                            <td>@{ int x = Convert.ToInt32(satis.Text) * sep.Adet; } @x</td>
+
+                                        }
+                                    }
+
+
+                                    <td>
+                                        <a asp-action="SepetSil" asp-controller="Urun" asp-route-uid="@item.Id" asp-route-kid="@ViewBag.Kullanici">Sil</a>
+
+                                    </td>
+                                </tr>
+                            }
+
+                        }
+                    }
+                </tbody>
+            </table>
+            <p style=" color: green; font-weight: bold;">
+                Toplam Tutar: @ViewBag.Toplam  TL
+            </p>
+
+        </div>
+
+
+    </div>
+
+    <form asp-action="SiparisOlustur" asp-route-kid="@ViewBag.Kullanici" asp-route-fiyat="@ViewBag.Toplam" role="form">
+        <div class="form-group">
+
+            <label class="small mb-1">Ülke:</label>
+            <input class="form-control py-4" name="Ulke" id="Ulke" type="text" placeholder="Ülke Adı" />
+
+            <label class="small mb-1">İsim:</label>
+            <input class="form-control py-4" name="Isim" id="Isim" type="text" placeholder="Isim" />
+
+            <label class="small mb-1">Soyisim:</label>
+            <input class="form-control py-4" name="Soyisim" id="Soyisim" type="text" placeholder="Soyisim" />
+
+            <label class="small mb-1">Firma İsmi:</label>
+            <input class="form-control py-4" name="FirmaIsmi" id="FirmaIsmi" type="text" placeholder="Firma İsmi" />
+
+            <label class="small mb-1">Adres:</label>
+            <textarea class="form-control py-4" name="Adres" id="Adres" type="text" placeholder="Adres.."> </textarea>
+
+            <label class="small mb-1">E-Mail:</label>
+            <input class="form-control py-4" name="Email" id="Email" type="text" placeholder="Email" />
+
+            <label class="small mb-1">Tel:</label>
+            <input class="form-control py-4" name="Tel" id="Tel" type="text" placeholder="Tel" />
+
+
+            <label class="small mb-1">Kupon Kodu:</label>
+            <input class="form-control py-4" name="KuponKodu" id="KuponKodu" type="text" placeholder="KuponKodu" />
+
+            <label class="small mb-1">Havale ile Ödeme:</label>
+            <input class="form-control py-4" name="odeme" value="H" id="Havale" type="radio" />
+
+            <label class="small mb-1">Kredi Karti ile Ödeme:</label>
+            <input class="form-control py-4" name="odeme" value="K" id="Kredi" type="radio" />
+
+        </div>
+
+        <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+            <input class="btn btn-primary" type="submit" value="Sipariş Oluştur" />
+        </div>
+    </form>
+
+
+
+</div>
+
+<p>
+    <a class="btn btn-primary" style="background-color: #0b406d;float: right;" asp-action="KullaniciUrunListele" asp-controller="Urun" asp-route-kid="@ViewBag.Kullanici">Ürün Listesine Dön</a>
+</p>
+
+
+

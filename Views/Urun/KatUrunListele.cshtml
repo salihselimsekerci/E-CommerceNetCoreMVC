@@ -1,0 +1,206 @@
+﻿@model IEnumerable<NetCore.Models.Urun>
+@{
+
+    @if (ViewBag.admin == 0)
+    {
+        Layout = "~/Views/Shared/_KullaniciLayout.cshtml";
+    }
+
+
+}
+
+
+
+<head>
+    <title>Ürün Listesi</title>
+</head>
+
+@if (ViewBag.admin == 0)
+{
+    <div id="layoutSidenav" style="position: fixed;
+        left: -2px;
+        height: 67%;
+    }">
+
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+
+                        <div class="sb-sidenav-menu-heading">Kullanici Paneli</div>
+                        <a class="nav-link" asp-action="Panel" asp-controller="Kullanici">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Giris/Cikis
+                        </a>
+
+
+                        <a class="nav-link" asp-action="Anasayfa" asp-controller="Kullanici" asp-route-kid="@ViewBag.kullanici">
+                            <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
+                            Anasayfa
+                        </a>
+
+
+
+                        <div class="sb-sidenav-menu-heading">Kategoriler</div>
+
+                        <a class="nav-link" asp-action="KullaniciUrunListele" asp-route-kid="@ViewBag.kullanici">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Tüm Ürünler
+                        </a>
+
+                        @foreach (Kategori item in ViewBag.Kat2)
+                        {
+                            <a class="nav-link" asp-action="KullaniciUrunListele" asp-route-kid="@ViewBag.kullanici" asp-route-katid="@item.Id">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                @item.KategoriAdi
+                            </a>
+                        }
+
+
+
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+}
+<div>
+
+
+
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Ürün Listesi
+        @if (ViewBag.admin == 0)
+        {
+            <a class="btn btn-primary" style="width: 20%; float: right;" asp-action="ProfilSayfasi" asp-controller="Kullanici" asp-route-kid="@ViewBag.kullanici">Profil <i class="fas fa-user"></i></a>
+
+            if (ViewBag.Sepet > 0)
+            {
+                <a class="btn btn-primary" style="width: 20%; float: right;" asp-action="Sepet" asp-controller="Urun" asp-route-kid="@ViewBag.kullanici">Sepet (@ViewBag.Sepet) <i class="fas fa-shopping-cart"></i></a>
+            }
+            else
+            {
+                <a class="btn btn-primary" style="width: 20%; float: right;" asp-action="Sepet" asp-controller="Urun" asp-route-kid="@ViewBag.kullanici">Sepet <i class="fas fa-shopping-cart"></i></a>
+            }
+            <form method="post" asp-action="KullaniciUrunListele" asp-route-kid="@ViewBag.kullanici" role="form">
+                @Html.DropDownList("Kategori", ViewBag.Kat as SelectList)
+                <input class="btn btn-primary" type="submit" value="Kategoriye göre Listele" />
+            </form>
+        }
+    </div>
+
+
+    <div class="row">
+
+        @foreach (var u in ViewBag.Urunler)
+        {
+
+
+            <div class="col-xl-3 col-md-6">
+                <div class="card bg-danger text-white mb-4">
+
+                    <div style="z-index: 99;" class="card-body">
+                        @if (u.Adet != 0)
+                        {@u.UrunAdi}
+                    else
+                    { @u.UrunAdi <label> (STOKTA YOK)</label>}
+
+
+                        @if (ViewBag.admin == 0)
+                        {
+                            if (u.Adet != 0)
+                            {
+                                <a style="z-index: 99; float: right;" class="btn btn-primary" asp-action="SepetEkle" asp-controller="Urun" asp-route-uid="@u.Id" asp-route-kid="@ViewBag.kullanici"> <i class="fas fa-cart-plus"></i></a>
+                            }
+
+                        }
+                    </div>
+
+
+                    @if (u.ResimUrl == null || u.ResimUrl == "Resim Url" || u.ResimUrl == "")
+                    {
+                        <img src="~/assets/img/ph.png" />
+                    }
+                    else
+                    {
+                        <img src="@u.ResimUrl" />
+                    }
+
+
+
+                    <div class="small text-white">Aciklama: @u.Aciklama</div>
+                    <div class="small text-white">Stok: @u.Adet</div>
+                    @foreach (SelectListItem marka in ViewBag.Marka)
+                    {
+                        if (marka.Value == u.MarkaId.ToString())
+                        {
+                            <div class="small text-white">
+                                Marka: @marka.Text
+                            </div>
+                        }
+                    }
+                    @if (ViewBag.admin == 1)
+                    {
+                        @foreach (SelectListItem alis in ViewBag.Alis)
+                        {
+                            if (alis.Value == u.FiyatId.ToString())
+                            {
+                                <div class="small text-white">Alis Fiyati: @alis.Text</div>
+
+                            }
+                        }
+                    }
+                    @foreach (SelectListItem satis in ViewBag.Satis)
+                    {
+                        if (satis.Value == u.FiyatId.ToString())
+                        {
+                            @if (ViewBag.admin == 1)
+                            {
+                                <div class="small text-white">Satis Fiyat: @satis.Text</div>
+                            }
+                            else
+                            {
+                                <div class="small text-white">Fiyat: @satis.Text</div>
+                            }
+                        }
+                    }
+
+
+                    <div class="card-footer d-flex align-items-center justify-content-between">
+                        <a class="small text-white stretched-link" asp-action="UrunDetay" asp-controller="Urun" asp-route-kid="@ViewBag.kullanici" asp-route-uid="@u.Id" asp-route-kullanici="@ViewBag.admin">Urun Detay</a>
+                        <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        }
+    </div>
+    @*<!--
+
+                <div class="card-body">
+                    @if (ViewBag.admin == 0)
+                    {
+                        <p>
+                            <a class="btn btn-primary" asp-action="Panel" asp-controller="Kullanici">Admin Panel</a>
+                        </p>
+                    }
+
+                </div>
+        -->*@
+</div>
+
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+
+
+
+</script>

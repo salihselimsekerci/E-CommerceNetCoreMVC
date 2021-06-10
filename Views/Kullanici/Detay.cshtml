@@ -1,0 +1,39 @@
+﻿@{
+
+}
+<head>
+    <title>Kullanıcı Detay</title>
+</head>
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Kullanıcı Detay:
+    </div>
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable2" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Kullanıcı Adı</th>
+                        <th>Şifre</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@ViewBag.gelen.Id</td>
+                        <td> @ViewBag.gelen.KullaniciAdi</td>
+                        <td>@ViewBag.gelen.Sifre</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <a class="btn btn-primary" asp-action="Duzenle" asp-route-id="@ViewBag.gelen.Id">Duzenle</a>
+            <a class="btn btn-primary" style="background-color: #c21b1b;" asp-action="Sil" asp-route-id="@ViewBag.gelen.Id">Sil</a>
+            <a class="btn btn-primary" style="background-color: #0b406d;float: right;" asp-action="KullaniciListele">Kullanici Listesi</a>
+        </div>
+    </div>
+</div>
+
+

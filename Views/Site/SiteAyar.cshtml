@@ -1,0 +1,84 @@
+﻿@{
+
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Site Ayarlari</title>
+</head>
+<body class="bg-primary">
+    <div id="layoutAuthentication">
+        <div id="layoutAuthentication_content">
+            <main>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-5">
+                            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                <div class="card-header"><h3 class="text-center font-weight-light my-4">Site Ayarlari:</h3></div>
+                                <div class="card-body">
+                                    <form method="post" asp-action="SiteAyar" role="form">
+                                        <div class="form-group">
+
+                                            <label class="small mb-1">Adres:</label>
+                                            <input class="form-control py-4" name="Adres" id="Adres" type="text" value="@ViewBag.Site.Adres"  />
+
+                                            <label class="small mb-1">Eposta:</label>
+                                            <input class="form-control py-4" name="Eposta" id="Eposta" type="text" value="@ViewBag.Site.Eposta" />
+
+                                            <label class="small mb-1">Telefon:</label>
+                                            <input class="form-control py-4" name="Telefon" id="Telefon" type="text" value="@ViewBag.Site.Telefon" />
+
+                                            <label class="small mb-1">Faks:</label>
+                                            <input class="form-control py-4" name="Faks" id="Faks" type="text" value="@ViewBag.Site.Faks" />
+
+                                            
+
+
+                                            <label class="small mb-1">LogoUrl:</label>
+                                            <input class="form-control py-4" name="LogoUrl" id="LogoUrl" type="text" value="@ViewBag.Site.LogoUrl" />
+
+
+                                            <label class="small mb-1">Facebook Url:</label>
+                                            <input class="form-control py-4" name="FacebookUrl" id="FacebookUrl" type="text" value="@ViewBag.Site.FacebookUrl" />
+
+                                            <label class="small mb-1">Facebook Aktif?:</label>
+                                            <input class="form-control py-4" name="Facebook" id="Facebook" type="checkbox" value="@ViewBag.Site.Facebook" />
+
+                                            <label class="small mb-1">Twitter Url:</label>
+                                            <input class="form-control py-4" name="TwitterUrl" id="TwitterUrl" type="text" value="@ViewBag.Site.TwitterUrl" />
+
+                                            <label class="small mb-1">Twitter Aktif?:</label>
+                                            <input class="form-control py-4" name="Twitter" id="Twitter" type="checkbox" value="@ViewBag.Site.Facebook" />
+
+                                            <label class="small mb-1">Instagram Url:</label>
+                                            <input class="form-control py-4" name="InstagramUrl" id="InstagramUrl" type="text" value="@ViewBag.Site.InstagramUrl" />
+
+                                            <label class="small mb-1">Instagram Aktif?:</label>
+                                            <input class="form-control py-4" name="Instagram" id="Instagram" type="checkbox" value="@ViewBag.Site.Instagram" />
+
+                                        </div>
+
+                                        <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+                                            <input class="btn btn-primary" type="submit" value="Düzenle" />
+                                        </div>
+                                    </form>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
+
+
+

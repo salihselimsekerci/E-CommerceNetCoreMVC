@@ -1,0 +1,370 @@
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.exe
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.deps.json
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.runtimeconfig.json
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.runtimeconfig.dev.json
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.pdb
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.Views.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.Views.pdb
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.csprojAssemblyReference.cache
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.RazorAssemblyInfo.cache
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.RazorAssemblyInfo.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.AssemblyInfoInputs.cache
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.AssemblyInfo.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.TagHelpers.input.cache
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.TagHelpers.output.cache
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.RazorCoreGenerate.cache
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.RazorTargetAssemblyInfo.cache
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.RazorTargetAssemblyInfo.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.Views.pdb
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\staticwebassets\NetCore.StaticWebAssets.Manifest.cache
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\staticwebassets\NetCore.StaticWebAssets.xml
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.pdb
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.genruntimeconfig.cache
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.csproj.CopyComplete
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.csproj.CoreCompileInputs.cache
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\Giris.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\scopedcss\bundle\NetCore.styles.css
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\KullaniciListele.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\Ekle.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\Duzenle.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\Detay.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\Panel.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\KategoriDuzenle.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\KategoriEkle.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\KategoriListele.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\UrunDuzenle.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\UrunEkle.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\UrunListele.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\KatUrunListele.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\UrunDetay.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_KullaniciLayout.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\MarkaDuzenle.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\MarkaEkle.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\MarkaListele.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\Sepet.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\SifreUnuttum.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\ProfilSayfasi.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\SiparisDetay.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\SiparisListele.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\Anasayfa.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\SlideEkle.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\SlideListele.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\Iletisim.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\MesajListele.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\AboneListele.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\SiteAyar.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\KategorilerYeni.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\DilDuzenle.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\DilEkle.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\DilListele.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\KurEkle.cshtml.g.cs
+C:\Users\MX-PC\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\KurListele.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.exe
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.deps.json
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.runtimeconfig.json
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.runtimeconfig.dev.json
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.pdb
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.Views.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NetCore.Views.pdb
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.csprojAssemblyReference.cache
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.AssemblyInfoInputs.cache
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.AssemblyInfo.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.csproj.CoreCompileInputs.cache
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.RazorAssemblyInfo.cache
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.RazorAssemblyInfo.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\staticwebassets\NetCore.StaticWebAssets.Manifest.cache
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\staticwebassets\NetCore.StaticWebAssets.xml
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\scopedcss\bundle\NetCore.styles.css
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.TagHelpers.input.cache
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.TagHelpers.output.cache
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.RazorCoreGenerate.cache
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\AboneListele.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\Anasayfa.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\Detay.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\Duzenle.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\Ekle.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\Giris.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\KullaniciListele.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\Panel.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\ProfilSayfasi.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Kullanici\SifreUnuttum.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_KullaniciLayout.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\DilDuzenle.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\DilEkle.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\DilListele.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\Iletisim.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\KurEkle.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\KurListele.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\MesajListele.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\SiteAyar.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\SlideEkle.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Site\SlideListele.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\KategoriDuzenle.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\KategoriEkle.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\KategorilerYeni.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\KategoriListele.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\KatUrunListele.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\MarkaDuzenle.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\MarkaEkle.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\MarkaListele.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\Sepet.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\SiparisDetay.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\SiparisListele.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\UrunDetay.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\UrunDuzenle.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\UrunEkle.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\Urun\UrunListele.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.RazorTargetAssemblyInfo.cache
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.RazorTargetAssemblyInfo.cs
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.Views.pdb
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.csproj.CopyComplete
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.dll
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.pdb
+C:\Users\Salih Selim Sekerci\source\repos\NetCore\NetCore\obj\Debug\netcoreapp3.1\NetCore.genruntimeconfig.cache

@@ -1,0 +1,38 @@
+﻿
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<head>
+    <title>Proje/Panel</title>
+</head>
+
+<main>
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable2" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Kullanıcı Sayısı:</th>
+                        <th>Kategori Sayısı:</th>
+                        <th>Ürün Sayısı:</th>
+
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@ViewBag.Kullanici</td>
+                        <td>@ViewBag.Kat</td>
+                        <td>@ViewBag.Urun</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+  
+
+</main>
+
+
+

@@ -1,0 +1,148 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_KullaniciLayout.cshtml";
+
+}
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav">
+                @if (ViewBag.Kid != null)
+                {
+                    <li class="nav-item"><a class="nav-link" asp-action="ProfilSayfasi" asp-controller="Kullanici" asp-route-kid="@ViewBag.Kid"> <i class="fas fa-user"></i> Hesabım</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="KullaniciUrunListele" asp-controller="Urun" asp-route-kid="@ViewBag.Kid"> <i class="fas fa-clipboard-check"></i> Ürün Listesi</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Sepet" asp-controller="Urun" asp-route-kid="@ViewBag.Kid"><i class="fas fa-shopping-cart"></i> Sepetim</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"><i class="fas fa-sign-in-alt"></i> Çıkış Yap</a></li>
+                }
+                else
+                {
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"> <i class="fas fa-user"></i> Hesabım</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"> <i class="fas fa-clipboard-check"></i> Ürün Listesi</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"><i class="fas fa-shopping-cart"></i> Sepetim</a></li>
+                    <li class="nav-item"><a class="nav-link" asp-action="Giris" asp-controller="Kullanici"><i class="fas fa-sign-in-alt"></i> Giris Yap</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/de4ce4988e.js" crossorigin="anonymous"></script>
+
+    <style type="text/css">
+        /* Set the size of the div element that contains the map */
+        #map {
+            height: 400px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            const uluru = { lat: -25.344, lng: 131.036 };
+            // The map, centered at Uluru
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 4,
+                center: uluru,
+            });
+            // The marker, positioned at Uluru
+            const marker = new google.maps.Marker({
+                position: uluru,
+                map: map,
+            });
+        }
+    </script>
+
+
+    <title>İletişim</title>
+</head>
+<body class="bg-primary">
+    <div id="layoutAuthentication">
+        <div id="layoutAuthentication_content">
+            <main>
+                <div class="container">
+                    <div class="row" style="     justify-content: space-between;">
+                        <div class="col-lg-5">
+                            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                <div class="card-header"><h3 class="text-center font-weight-light my-4">Iletişim:</h3></div>
+                                <div class="card-body">
+                                    <form method="post" asp-action="Iletisim" role="form">
+                                        <div class="form-group">
+                                            <label class="small mb-1">Isim:</label>
+                                            <input class="form-control py-4" name="isim" id="isim" type="text" placeholder="İsim" />
+                                            <label class="small mb-1">E-Mail:</label>
+                                            <input class="form-control py-4" name="email" id="email" type="text" placeholder="E-Mail" />
+                                            <label class="small mb-1">Firma Ismi:</label>
+                                            <input class="form-control py-4" name="firmaIsmi" id="firmaIsmi" type="text" placeholder="Firma Ismi" />
+
+                                            <label class="small mb-1">Konu:</label>
+                                            <textarea style=" width: 100%; height: 330px;" id="konu" name="konu" placeholder="Konu.."></textarea>
+
+
+                                        </div>
+
+                                        <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+                                            <input class="btn btn-primary" type="submit" value="Gönder" />
+                                        </div>
+                                    </form>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5">
+                            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                <div class="card-header"><h3 class="text-center font-weight-light my-4">Konumumuz:</h3></div>
+                                <div class="card-body">
+                                    <div id="map"></div>
+                                </div>
+
+                                <div class="card-header"><h3 class="text-center font-weight-light my-4">Adres Bilgileri:</h3></div>
+                                <div class="card-body">
+                                    <p> Adres : @ViewBag.Site.Adres </p><br />
+                                    <label> Telefon : @ViewBag.Site.Telefon </label><br />
+                                    <label> Faks : @ViewBag.Site.Faks </label><br />
+                                    <label> E-Mail : @ViewBag.Site.Eposta</label><br />
+
+                                    <label>Takip Edin</label><br />
+                                    @if (ViewBag.Site.Facebook == true)
+                                    {
+                                        <a href="@ViewBag.Site.FacebookUrl"> <i class="fab fa-facebook-square"></i> </a>
+                                    }
+                                    @if (ViewBag.Site.Twitter == true)
+                                    {
+                                        <a href="@ViewBag.Site.TwitterUrl"> <i class="fab fa-twitter-square"></i> </a>
+                                    }
+                                    @if (ViewBag.Site.Instagram == true)
+                                    {
+                                        <a href="@ViewBag.Site.InstagramUrl"> <i class="fab fa-instagram-square"></i> </a>
+                                    }
+                                    </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </main>
+        </div>
+
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWr1DWMuv05CcjrPkpGfHKruN93nGuAlg&callback=initMap&libraries=&v=weekly"
+            async></script>
+
+
+</body>
+</html>

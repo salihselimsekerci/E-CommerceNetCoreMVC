@@ -1,0 +1,62 @@
+﻿@model IEnumerable<NetCore.Models.Dil>
+
+
+<head>
+    <title>Dil Listesi</title>
+</head>
+
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Dil Listesi
+    </div>
+    <div class="card-body">
+
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.Id)</th>
+                        <th>@Html.DisplayNameFor(model => model.Adi)</th>
+                        <th>İşlem</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+
+                        <tr>
+                         
+                            <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Adi)</td>
+
+                            <td>
+
+                                <a asp-action="DilDuzenle" asp-controller="Site" asp-route-id="@item.Id">Düzenle</a>
+                                <a asp-action="DilSil" asp-controller="Site" asp-route-id="@item.Id">Sil</a>
+                            </td>
+                        </tr>
+
+                    }
+                </tbody>
+
+
+            </table>
+
+            <p>
+                <a class="btn btn-primary" asp-action="DilEkle" asp-controller="Site">Dil Ekle</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+

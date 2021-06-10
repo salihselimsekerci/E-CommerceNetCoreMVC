@@ -1,0 +1,56 @@
+﻿@model IEnumerable<NetCore.Models.Mesaj>
+
+@{
+
+}
+<head>
+    <title>Mesajlar</title>
+</head>
+
+
+<div class="card mb-4">
+    <div class="card-header">
+        <i class="fas fa-table mr-1"></i>
+        Mesajlar
+    </div>
+    <div class="card-body">
+
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Mesaj ID</th>
+                        <th>Isim</th>
+                        <th>Email</th>
+                        <th>Firma İsmi</th>
+                        <th>Konu</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.Id)</td>
+
+                        <td>@Html.DisplayFor(modelItem => item.Isim)</td>
+
+                        <td>@Html.DisplayFor(modelItem => item.Email)</td>
+
+                        <td>@Html.DisplayFor(modelItem => item.FirmaIsmi)</td>
+
+                        <td style=" width: 200px; height: 200px;"> @item.Konu</td>
+
+
+
+                    </tr>
+                    }
+                </tbody>
+            </table>
+         
+        </div>
+    </div>
+</div>
+
+
+
